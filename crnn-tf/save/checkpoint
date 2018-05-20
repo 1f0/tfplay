@@ -1,0 +1,2 @@
+model_checkpoint_path: "crnn_2018-02-05-03-11-05.ckpt-33600"
+all_model_checkpoint_paths: "crnn_2018-02-05-03-11-05.ckpt-33600"

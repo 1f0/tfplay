@@ -1,0 +1,26 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+from easydict import EasyDict as edict
+
+__C = edict()
+cfg = __C
+
+__C.TRAIN = edict()
+
+__C.TRAIN.EPOCHS = 40000
+__C.TRAIN.DISPLAY_STEP = 5
+__C.TRAIN.SAVE_STEP = 100
+__C.TRAIN.MOMENTUM = 0.9
+__C.TRAIN.LEARNING_RATE = 0.1
+__C.TRAIN.GPU_MEMORY_FRACTION = 0.85
+__C.TRAIN.TF_ALLOW_GROWTH = True
+__C.TRAIN.BATCH_SIZE = 32
+__C.TRAIN.VAL_BATCH_SIZE = 32
+__C.TRAIN.LR_DECAY_STEPS = 1000
+__C.TRAIN.LR_DECAY_RATE = 0.1
+
+__C.TEST = edict()
+
+__C.TEST.GPU_MEMORY_FRACTION = 0.5
+__C.TEST.TF_ALLOW_GROWTH = False
+__C.TEST.BATCH_SIZE = 32
