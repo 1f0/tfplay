@@ -20,3 +20,7 @@
 
 * 使用如下语句演示样例图片，这会用红色输出"savers"
 > python -m run.demo --dataset_dir data/demo/3.jpg --weights_path save/crnn_2018-02-05-03-11-05.ckpt-33600
+
+textbox 识别如下图所示：
+
+![](data/ocr.png)
